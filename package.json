@@ -7,7 +7,9 @@
     "utopian": "app/main/index.js"
   },
   "scripts": {
-    "start": "electron app"
+    "start": "electron app",
+    "pack": "electron-builder",
+    "dist": "electron-builder --dir"
   },
   "keywords": [
     "Utopian",
