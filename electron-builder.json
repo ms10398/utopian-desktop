@@ -3,6 +3,7 @@
 	"appId": "org.Utopian.desktop",
 	"asar": "true",
 	"linux": {
+	  "icon": "app/resources/icon.png",
       "packageCategory": "GNOME;GTK;Network;",
       "description": "Utopian Desktop Client for Linux",
       "target": [
