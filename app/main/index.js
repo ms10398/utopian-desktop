@@ -22,6 +22,8 @@ const mainURL = 'file://' + path.join(__dirname, '../renderer', 'index.html');
 const APP_ICON = path.join(__dirname, '../resources', 'icon');
 
 const iconPath = () => {
+	if(process.platform === 'darwin')
+		return APP_ICON + '.icns';
 	return APP_ICON + (process.platform === 'win32' ? '.ico' : '.png');
 };
 
