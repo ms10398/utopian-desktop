@@ -1,4 +1,4 @@
-{	
+{
 	"productName": "Utopian Desktop",
 	"appId": "org.Utopian.desktop",
 	"asar": "true",
@@ -14,7 +14,7 @@
       "maintainer": "Mohit Sharma"
     },
     "dmg": {
-      "icon": "app/resources/icon.png",
+      "icon": "app/resources/logo.png",
       "iconSize": 128,
       "contents": [
         {
