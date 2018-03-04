@@ -19,7 +19,8 @@
   "author": "ms10398",
   "homepage": "https://utopian.io",
   "devDependencies": {
-    "electron": "^1.8.2"
+    "electron": "^1.8.2",
+    "electron-builder": "^20.2.0"
   },
   "dependencies": {
     "components-font-awesome": "^5.0.6",

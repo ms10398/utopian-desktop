@@ -76,7 +76,7 @@ function createMainWindow() {
 	win.once('ready-to-show', () => {
 		win.show();
 	});
-	
+
 	win.on('closed', onClosed);
 
 	win.loadURL(mainURL);
@@ -92,6 +92,7 @@ app.on('activate', () => {
 	}
 });
 
+app.dock.setIcon(`${APP_ICON}.png`)
 // Triggers when the app is ready.
 app.on('ready', () => {
 	closing = false;
