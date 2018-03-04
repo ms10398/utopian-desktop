@@ -92,7 +92,8 @@ app.on('activate', () => {
 	}
 });
 
-app.dock.setIcon(`${APP_ICON}.png`)
+if(process.platform === 'darwin')
+	app.dock.setIcon(`${APP_ICON}.png`)
 // Triggers when the app is ready.
 app.on('ready', () => {
 	closing = false;
